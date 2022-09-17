@@ -6,7 +6,7 @@
 
 int main()
 {
-    const std::string client = "maimai_dump_.exe";
+    const std::string client = "Sinmai.exe";
     auto process  = MaiSense::Process::Create(client, true);
     auto injector = MaiSense::Launcher::Injector(&process);
     auto remote   = injector.Inject("MaiSense.dll");
